@@ -1,4 +1,4 @@
-local Utility = loadstring(game:HttpGet("https://github.com/derek38/Private/blob/main/Scripts/Utility.lua"))()
+local Utility = loadstring(game:HttpGet("https://raw.githubusercontent.com/derek38/Private/main/Scripts/Utility.lua"))()
 
 local CoreGui = game:GetService("CoreGui")
 local PlayerService = game:GetService("Players")
