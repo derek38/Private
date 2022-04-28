@@ -1,13 +1,14 @@
+warn("")
 --Ignore--
 repeat
     wait()
 until game:IsLoaded()
 
 --Librarys--
-local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/derek38/Modules/main/Interface.lua"))()
-local Utility = loadstring(game:HttpGet("https://raw.githubusercontent.com/derek38/Modules/main/Utility.lua"))()
-local EspLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/derek38/Modules/main/Visuals.lua"))()
-local AimbotLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/derek38/Modules/main/Aimbot.lua"))()
+local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/derek38/Private/main/User-Interfaces/Module.lua"))()
+local Utility = loadstring(game:HttpGet("https://github.com/derek38/Private/blob/main/Scripts/Utility.lua"))()
+local EspLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/derek38/Private/main/Scripts/Visuals.lua"))()
+local AimbotLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/derek38/Private/main/Scripts/Aimbot.lua"))()
 
 getgenv().ErrorMessage = Utility.File.Name
 
